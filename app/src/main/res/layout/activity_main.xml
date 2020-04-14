@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:background="#080C0C"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textColor="#DDE0FA"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eMobilis Mobile Technical Institute" />
+
+    <EditText
+        android:textColor="#DDE0FA"
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt"
+        android:ems="10"
+        android:hint="Email...."
+        android:inputType="textEmailAddress"
+        android:textColorHint="#C3BEBE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:textColor="#DDE0FA"
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="password..."
+        android:inputType="textPassword"
+        android:textColorHint="#E8E3E3"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textColor="#F8F6F6"
+            android:background="#B3001B"
+            android:id="@+id/btnLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Log In" />
+
+        <Button
+            android:textColor="#F8F6F6"
+            android:background="#B3001B"
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
